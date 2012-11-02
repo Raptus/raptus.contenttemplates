@@ -6,7 +6,7 @@ version = '1.0b2'
 setup(name='raptus.contenttemplates',
       version=version,
       description="Provides generic interfaces to create content templates using adapters",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='raptus.contenttemplates',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/raptus.contenttemplates',
+      url='https://github.com/Raptus/raptus.contenttemplates',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['raptus'],
