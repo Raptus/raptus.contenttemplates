@@ -1,8 +1,8 @@
 from urllib import quote_plus
 from zope.interface import implements
 from zope.component import getAdapters
-from zope.app.publisher.browser.menu import BrowserMenu
-from zope.app.publisher.browser.menu import BrowserSubMenuItem
+from zope.browsermenu.menu import BrowserMenu
+from zope.browsermenu.menu import BrowserSubMenuItem
 
 from plone.memoize.instance import memoize
 

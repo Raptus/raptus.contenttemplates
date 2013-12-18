@@ -25,6 +25,7 @@ setup(name='raptus.contenttemplates',
       install_requires=[
           'setuptools',
           'plone.app.z3cform',
+          'zope.browsermenu',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

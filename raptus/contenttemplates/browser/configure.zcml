@@ -3,24 +3,25 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="raptus.contenttemplates">
 
-    <include package="plone.app.contentmenu" />
+  <include package="plone.app.contentmenu" />
 
-    <browser:page
-        for="*"
-        name="contenttemplates"
-        class=".contenttemplates.Contenttemplates"
-        permission="zope2.View"
-        />
+  <browser:page
+    for="*"
+    name="contenttemplates"
+    class=".contenttemplates.Contenttemplates"
+    permission="zope2.View"
+    />
 
-    <browser:menu
-        id="plone_contentmenu_contenttemplates"
-        title="The 'contenttemplates' menu - allows the user to add content based on a template"
-        class=".menu.ContenttemplatesMenu"
-        />
+  <browser:menu
+    id="plone_contentmenu_contenttemplates"
+    title="The 'contenttemplates' menu - allows the user to add content based on a template"
+    class=".menu.ContenttemplatesMenu"
+    />
 
-    <adapter for="* *"
-             name="plone.contentmenu.contenttemplates"
-             factory=".menu.ContenttemplatesSubMenuItem"
-             provides="plone.app.contentmenu.interfaces.IContentMenuItem" />
-    
+  <adapter for="* *"
+    name="plone.contentmenu.contenttemplates"
+    factory=".menu.ContenttemplatesSubMenuItem"
+    provides="plone.app.contentmenu.interfaces.IContentMenuItem"
+    />
+
 </configure>
