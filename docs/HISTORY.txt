@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0b3 (2013-12-18)
+1.0b3 (unreleased)
 ------------------
 
 * Changed import zope.app.publisher to zope.browsermenu
